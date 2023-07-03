@@ -1,0 +1,1 @@
+docker build -t fun-prerequisite/checksum . &&  docker run -a stdout fun-prerequisite/checksum > checksum
